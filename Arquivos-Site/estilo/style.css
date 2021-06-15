@@ -1,15 +1,43 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 header.topo{
     height: 1080px;
     width: 100%;
-    background-image:url(backgrounds/header.jpg);
+    background-image:url(backgrounds/Morgana.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 1080px;
-    background-attachment:inherit;
-    filter: blur(2px) brightness(30%);
-
+    z-index: 0;
+}
+div.div_header{
+    backdrop-filter:blur(0px) brightness(30%) ;
+    filter:none!important;
+    height: 1080px;
+    color: white;
+    z-index: 5;
+    text-align: center;
+}
+#title_header{
+    padding-top: 200px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+button.Call_Action_Header{
+    font-size: 18px;
+    width: 350px;
+    height: 80px;
+    color: white;
+    background-color: #1a273b;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    border: 1px solid #e9d691;
+    margin-top: 20px;
+}
+button.Call_Action_Header:nth-last-child(1){
+    margin-left: 100px;
 }
