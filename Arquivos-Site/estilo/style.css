@@ -4,5 +4,7 @@
 }
 header.topo{
     background-image:url(backgrounds/header.jpg);
+    height: 700px;
+    width: 100%;
 
 }
