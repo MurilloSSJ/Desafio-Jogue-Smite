@@ -6,5 +6,7 @@
 # English
 ## Challenger Play It Smite
 just a simple exercise, encouraging the people to play a MOBA game Smite.
-**This Page is not oficial, is only exercise, for apprenticeship to author**
+```diff
+! This Page is not oficial, is only exercise, for apprenticeship to author
+```
 ---
