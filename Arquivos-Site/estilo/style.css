@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: blue;
+}
 header.topo{
     background-image:url(backgrounds/header.jpg);
     height: 700px;
     width: 100%;
+    background-color: black;
 
 }
