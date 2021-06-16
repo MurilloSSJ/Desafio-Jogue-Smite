@@ -36,7 +36,6 @@ div.ItensMenu ul li a{
 div.ItensMenu ul li{
     display: inline-block;
     position: relative;
-    float: left;
     padding-left: 70px;
     color: white;
 }
