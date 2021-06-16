@@ -2,11 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+
+
 /*ESTILIZAÇÃO DO MENU*/
 #menu{
     height: 100px;
     background-color: #1a273b;
-    position: fixed;
+    position: absolute;
+    top: 0;
     z-index: 999;
     width: 100%;
 }
@@ -59,6 +62,8 @@ div.ItensMenu ul li a:hover{
     color: #e9d691;
     transform-origin: center;
 }
+
+
 /*ESTILIZAÇÃO DO HEADER*/
 header.topo{
     height: 100vh;
@@ -101,28 +106,86 @@ button.Call_Action_Header{
     cursor: pointer;
     z-index: 1;
 }
-button.Call_Action_Header:nth-last-child(1){
-    margin-left: 100px;
+    button.Call_Action_Header:nth-last-child(1){
+        margin-left: 100px;
+    }
+    button.Call_Action_Header::after{
+        content: "";
+        background-color: #e9d691;
+        position: absolute;
+        z-index: -1;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        right: 100%;
+        transition: all 1s;
+    }
+    button.Call_Action_Header:hover{
+        color: #05111e;
+    }
+    button.Call_Action_Header:hover::after {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        transition: all 1s;
+    }
+
+
+/*Estilização da estrutura da pagina*/
+.EstruturaPadrao{
+    background: #05111e;
+    width: 100%;
+    height: 200vh;
 }
-button.Call_Action_Header::after{
-    content: "";
-    background-color: #e9d691;
-    position: absolute;
-    z-index: -1;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: -100%;
-    right: 100%;
-    transition: all 1s;
+.TituloPadrao{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
 }
-button.Call_Action_Header:hover{
-    color: #05111e;
+.BorderTitle{
+    width: 60%;
+    height: 1px;
+    background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(194,165,62,1) 50%, rgba(0,0,0,0) 100%);
+    margin:auto;
+    margin-top: 10px;
 }
-  button.Call_Action_Header:hover::after {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transition: all 1s;
-  }
+.PrincipalWrapper{
+    flex-direction: column;
+}
+.WrapperPadrao{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.WrapperFilho{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    align-items: center;
+}
+.Subtitle{
+    text-align: center;
+}
+.BorderSubtitle{
+    width: 30%;
+}
+.Paragraph{
+    margin: auto;
+    text-align: justify;
+    color: white;
+    width: 50%;
+    margin-top: 10px;
+}
+.BorderWrapper{
+    width: 80%;
+    margin-top: 40px;
+}
+.ButtonSobreOSmite{
+    margin-top: 100px!important;
+}
