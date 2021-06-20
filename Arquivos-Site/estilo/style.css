@@ -198,3 +198,15 @@ button.Call_Action_Header{
 .ButtonSobreOSmite{
     margin-top: 100px!important;
 }
+
+/*ESTILIZAÇÃO PARTE MODOS DE JOGO*/
+.ModosJogo{
+    background-image: url(backgrounds/modos\ de\ jogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.StructModosJogo{
+    width: 33%!important;
+    padding: auto!important;
+}
