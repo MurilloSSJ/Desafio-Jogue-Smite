@@ -198,15 +198,49 @@ button.Call_Action_Header{
 .ButtonSobreOSmite{
     margin-top: 100px!important;
 }
+.Transition{
+    background: rgb(5,17,30);
+    background: linear-gradient(180deg, rgba(5,17,30,1) 13%, rgba(0,0,0,0) 92%);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
 
 /*ESTILIZAÇÃO PARTE MODOS DE JOGO*/
+.TitleModosJogo{
+    padding-top: 200px;
+}
 .ModosJogo{
     background-image: url(backgrounds/modos\ de\ jogo.png);
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    background-size: cover;
+    height: 120vh;
 }
-.StructModosJogo{
-    width: 33%!important;
-    padding: auto!important;
+.WrapperModosJogo{
+    width: 100%;
+}
+.WrapperIconsModosJogo{
+    width: 25%!important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.iconModosJogo{
+    filter: brightness(20%);
+    cursor: pointer;
+}
+.TitleIcons{
+    font-size: 10px;
+    margin: 0px;
+    padding:5px;
+}
+.ModosJogoReveal{
+    width: 100%;
+}
+.SubtitleModosJogoReveal{
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 70px;
 }
