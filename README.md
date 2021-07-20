@@ -1,6 +1,6 @@
 # PT-BR
 ## Desafio Jogue Smite
-Um simples exercício, de uma pagina Landing Page, encorajando as pessoas a jogar o MOBA Smite
+Um simples exercício, de uma pagina Landing Page
  ```diff
  ! Esta página não é oficial, é apenas um exercício voltado ao aprendizado do autor
  ```
