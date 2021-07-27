@@ -75,7 +75,7 @@ div.ItensMenu ul li a:hover{
 
 /*ESTILIZAÇÃO DO HEADER*/
 header.topo{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-image:url(backgrounds/rama.jpg);
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ header.topo{
 div.div_header{
     backdrop-filter:blur(0px) brightness(30%) ;
     filter:none!important;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
     z-index: 5;
     text-align: center;
@@ -146,7 +146,7 @@ button.Call_Action_Header{
 .EstruturaPadrao{
     background: #05111e;
     width: 100%;
-    height: 200vh;
+    min-height: 200vh;
 }
 .TituloPadrao{
     color: white;
@@ -216,7 +216,7 @@ button.Call_Action_Header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 120vh;
+    min-height: 120vh;
 }
 .WrapperModosJogo{
     width: 100%;
@@ -243,4 +243,11 @@ button.Call_Action_Header{
     font-size: 30px;
     margin: 0px;
     padding-top: 70px;
+}
+.textGameModes{
+    text-align: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: start;
+    justify-items: start;
 }
